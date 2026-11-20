@@ -1,0 +1,8 @@
+write-in-chunks
+1
+include-empty-transaction
+true
+include-timestamp
+on
+pretty-print
+1

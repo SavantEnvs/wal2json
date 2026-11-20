@@ -1,0 +1,11 @@
+project: savantenvs/wal2json
+target: fuzz_wal2json
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_wal2json/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_wal2json
+    libfuzzer: true
+    timeout: 5

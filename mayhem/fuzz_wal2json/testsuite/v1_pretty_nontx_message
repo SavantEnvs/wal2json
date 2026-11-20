@@ -1,0 +1,9 @@
+format-version
+1
+pretty-print
+1
+add-msg-prefixes
+wal2json,foo
+
+wal2json
+non-transactional

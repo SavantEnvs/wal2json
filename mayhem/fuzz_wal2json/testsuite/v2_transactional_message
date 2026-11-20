@@ -1,0 +1,11 @@
+format-version
+2
+include-xids
+1
+include-lsn
+1
+include-timestamp
+1
+
+wal2json
+this is a "message"\

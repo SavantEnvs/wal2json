@@ -1,0 +1,15 @@
+add-tables
+*.foo,public.bar,"Sch.ema"."t\,x"
+filter-tables
+"Foo".b\,c
+actions
+insert,update,truncate
+filter-origins
+1,2
+filter-msg-prefixes
+foo,bar
+include-xids
+1
+
+foo
+content
